@@ -63,14 +63,14 @@ pip install pandas xlsxwriter
 ---
 
 ## ▶️ Como Executar
-1. Coloque a planilha de entrada no mesmo diretório do script e nomeie como **`tmp001.xlsx`** (ou ajuste no código).  
+1. Coloque a planilha de entrada no mesmo diretório do script e nomeie como **`arquivo_entrada.xlsx`** (ou ajuste no código).  
 2. Execute o script com Python:
 
 ```bash
-python nome_do_script.py
+python formatar.py
 ```
 
-3. O resultado será salvo como **`v1_relatorio_rafas.xlsx`** no mesmo diretório.
+3. O resultado será salvo como **`arquivo_saida.xlsx`** no mesmo diretório.
 
 ---
 
