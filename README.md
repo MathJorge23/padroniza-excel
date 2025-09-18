@@ -1,7 +1,7 @@
 # 📄 README – Script de Formatação de Planilhas Excel
 
 ## 📌 Descrição
-Este script em Python lê uma planilha Excel existente (`tmp001.xlsx`) com múltiplas abas, aplica algumas transformações em cada aba e gera uma nova planilha formatada (`v1_relatorio_rafas.xlsx`).  
+Este script em Python lê uma planilha Excel existente (`arquivo_entrada.xlsx`) com múltiplas abas, aplica algumas transformações em cada aba e gera uma nova planilha formatada (`arquivo_saida.xlsx`).  
 Ele foi feito utilizando a biblioteca **pandas** para manipulação de dados e o **XlsxWriter** (via `ExcelWriter`) para aplicar estilos e formatações avançadas no Excel.
 
 ---
@@ -44,7 +44,7 @@ import pandas as pd
      - Resolve duplicatas adicionando `_1` ao final.  
 
 3. **Escrita no novo Excel**  
-   - Cada aba processada é escrita na planilha de saída (`v1_relatorio_rafas.xlsx`) preservando seu nome original.
+   - Cada aba processada é escrita na planilha de saída (`arquivo_saida.xlsx`) preservando seu nome original.
 
 4. **Estilização da planilha**  
    - Cria uma **tabela formatada** com estilo `"Table Style Medium 9"`.  
